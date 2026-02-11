@@ -1,9 +1,9 @@
 # Next.js project setup (step-by-step)
 
 1- initialize project:
-`bash
-    npx create-next-app@latest my-next-app
-    `
+  ```bash
+    npx create-next-app@latest your-app-name
+  ```
 
 # Multilingual Website
 
@@ -134,7 +134,7 @@ $ npm install next-intl
 
 - initialize project:
   ```bash
-    npx create-next-app@latest my-next-app
+    npx create-next-app@latest your-app-name
   ```
 - multi-lingual lib:
   ```bash
