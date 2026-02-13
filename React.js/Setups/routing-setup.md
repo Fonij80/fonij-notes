@@ -1,12 +1,12 @@
 # Setup routing (file-based)
 
-1- install dependency:
+1- Install dependency:
 
 ```bash
 npm install react-router-dom
 ```
 
-2- add layout in src/routes/Layout.tsx:
+2- Add layout in src/routes/Layout.tsx:
 
 ```typescript
 import { Outlet, ScrollRestoration } from "react-router-dom";
@@ -28,7 +28,7 @@ export const Layout = () => {
 
 ```
 
-3- add router in src/routes/router.tsx:
+3- Add router in src/routes/router.tsx:
 
 ```typescript
 
@@ -71,7 +71,7 @@ export default router;
 
 ```
 
-4- move App.tsx to src/routes":
+4- Move App.tsx to src/routes":
 \*\* Don't forget to modify the App.tsx import in main.tsx.
 
 ```typescript

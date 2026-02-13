@@ -1,14 +1,14 @@
 # Setup multilinguality
 
-1- install dependency:
+1- Install dependency:
 
 ```bash
 npm install i18next react-i18next i18next-http-backend i18next-browser-languagedetector
 ```
 
-2- add json files to src/locales/[lang]/[file_name].json
+2- Add json files to src/locales/[lang]/[file_name].json
 
-3- add i18n.ts to src:
+3- Add i18n.ts to src:
 
 ```typescript
 import i18n from "i18next";
@@ -48,7 +48,7 @@ void i18n
 export default i18n;
 ```
 
-4- add below line to main.tsx:
+4- Add below line to main.tsx:
 
 ```typescript
 import "./i18n";

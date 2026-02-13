@@ -1,26 +1,26 @@
 # Setup react.js project using vite ([step-by-step](https://ui.shadcn.com/docs/installation/vite))
 
-1- create project:
+1- Create project:
 
 ```bash
     npm create vite@latest
 ```
 
-2- install dependencies:
+2- Install dependencies:
 
 ```bash
     npm install
     npm install -D @types/node
 ```
 
-3- add tailwind:
+3- Add Tailwind:
 
 ```bash
     npm install -D tailwindcss @tailwindcss/vite
     npm install -D tailwindcss-rtl # for rtl websites
 ```
 
-4- replace the whole 'src/index.css' by:
+4- Replace the whole 'src/index.css' by:
 
 ```css
 @import "tailwindcss";
@@ -28,7 +28,7 @@
 
 \*\* You can remove App.css file and its import in App.tsx (not usable).
 
-5- replace the whole 'tsconfig.json' by:
+5- Replace the whole 'tsconfig.json' by:
 
 ```json
 {
@@ -46,7 +46,7 @@
 }
 ```
 
-6- add below line to "compilerOptions" in 'tsconfig.app.json' (for resolving path in your IDE):
+6- Add below line to "compilerOptions" in 'tsconfig.app.json' (for resolving path in your IDE):
 
 ```json
 "baseUrl": ".",
@@ -55,7 +55,7 @@
     }
 ```
 
-7- replace the whole 'vite.config.ts' by:
+7- Replace the whole 'vite.config.ts' by:
 
 ```typescript
 import path from "path";
@@ -74,7 +74,7 @@ export default defineConfig({
 });
 ```
 
-8- run shadcn:
+8- Add shadcn:
 
 ```bash
 npx shadcn@latest init
@@ -86,7 +86,7 @@ npx shadcn@latest init
 npx shadcn@latest add [component_name]
 ```
 
-9- run project:
+9- Run project:
 
 ```bash
 npm run dev

@@ -1,13 +1,13 @@
 # Setup theme
 
-1- install dependency:
+1- Install dependency:
 
 ```bash
 npm install clsx tailwind-merge
 npm install -D tailwindcss-animate
 ```
 
-2- create tailwind.config.js in root:
+2- Create tailwind.config.js in root:
 
 ```typescript
 module.exports = {
@@ -18,7 +18,7 @@ module.exports = {
 };
 ```
 
-3- create theme-provider.tsx to src/lib:
+3- Create theme-provider.tsx to src/lib:
 
 ```typescript
 import { createContext, useContext, useEffect, useState } from "react";
@@ -97,7 +97,7 @@ export const useTheme = () => {
 
 ```
 
-4- make sure you have utils.ts in src/lib:
+4- Make sure you have utils.ts in src/lib:
 
 ```typescript
 import { type ClassValue, clsx } from "clsx";
@@ -108,7 +108,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 ```
 
-5- make sure about your src/index.css:
+5- Make sure about your src/index.css:
 
 ```css
 @import "tailwindcss";
@@ -237,7 +237,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 ```
 
-6- wrap your App.tsx with ThemeProvider:
+6- Wrap your App.tsx with ThemeProvider:
 
 ```typescript
 import { RouterProvider } from "react-router-dom";
