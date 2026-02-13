@@ -4,6 +4,9 @@ site_url: https://fonij80.github.io/fonij-dev-notes/
 repo_url: https://github.com/fonij80/fonij-dev-notes/
 edit_uri: edit/main/docs/
 
+extra_css:
+  - custom.css
+
 theme:
   name: material
   palette:
