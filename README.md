@@ -1,7 +1,7 @@
-# 🚀 Fonij Dev Notes
+# 📝 Fonij Dev Notes
 
-**Foroozan Iraji's developer cheatsheets**  
-_Whatever technology I learn → instant notes & copy-ready snippets_
+I'm used to writing everything down, so whenever I learn a new technology, I take notes to clear my thoughts.
+And this is my **Dev writings**:
 
 <div align="center">
 
@@ -11,15 +11,9 @@ _Whatever technology I learn → instant notes & copy-ready snippets_
 
 ## 📖 What's Inside
 
-- ReactJS, Next.js, Django, AI, Software Engineering
-- Modern setups, deployments, naming conventions
-- Searchable. Dark mode. Copy-to-clipboard code blocks
+- **Frontend**: ReactJS, Next.js
+- **Backend**: Django
+- **Software Engineering**: AI, Design Patterns, Deployment, Conventions
+- Searchable & Copy-to-clipboard code blocks
 
-**Made with ❤️ using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)**
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Fonij80-black?logo=github&logoColor=white)](https://github.com/Fonij80)
-[![Follow](https://img.shields.io/badge/Follow-Fonij80-6f42c1?logo=github&logoColor=white&style=for-the-badge)](https://github.com/Fonij80)
-
-</div>
+⚒️ Made with ease using **[MkDocs Material](https://squidfunk.github.io/mkdocs-material/)**
