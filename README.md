@@ -1,4 +1,4 @@
-# 📝 Fonij Dev Notes
+# Basic For Founders
 
 I'm used to writing everything down, so whenever I learn a new technology, I take notes to clear my thoughts.
 And this is my **Dev writings**:
